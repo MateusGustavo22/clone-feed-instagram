@@ -1,0 +1,125 @@
+.feed {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.user_post {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.perfil_do_post {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  flex-flow: inline;
+  align-items: center;
+}
+
+.menu_post {
+  width: 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.perfil_photo img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.perfil_photo {
+  width: 40px;
+  height: 40px;
+}
+
+.perfil_name span {
+  font-family: inter;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.menu_post svg {
+  width: 30px;
+  height: 30px;
+}
+
+.post_photo {
+  width: 100%;
+  min-height: 400px;
+  margin-top: 10px;
+}
+
+.post_photo img {
+  width: 100%;
+}
+
+.post_interations {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: inline;
+  padding-right: 15px;
+}
+
+.interations {
+  width: 150px;
+  height: 45px;
+  display: flex;
+  flex-direction: inline;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.like, .coment, .directChat {
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+}
+
+.like svg {
+  width: 28px;
+  height: 28px;
+}
+
+.coment svg {
+  width: 28px;
+  height: 28px;
+}
+
+.directChat svg {
+  width: 28px;
+  height: 28px;
+}
+
+.savePost {
+  width: 30px;
+  height: 30px;
+}
+
+.savePost svg {
+  width: 30px;
+  height: 30px;
+}
+
+.likes_count {
+  width: 100%;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.likes_count span {
+  font-family: inter;
+  font-weight: bold;
+  font-size: 14px;
+}
